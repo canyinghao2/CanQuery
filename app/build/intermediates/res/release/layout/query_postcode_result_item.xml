@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_deep_bg"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_pid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="省"
+        android:textColor="@color/black_gray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_cid"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0.5dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="市"
+        android:textColor="@color/black_gray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_did"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0.5dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="区、县"
+        android:textColor="@color/black_gray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_qid"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0.5dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="街道"
+        android:textColor="@color/black_gray"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tv_post"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="0.5dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="邮编"
+        android:textColor="@color/black_gray"
+        android:textSize="12sp" />
+
+</LinearLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/query_postcode_result_item.xml -->

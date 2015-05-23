@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="3dp" />
+
+    <stroke
+        android:width="0.5dp"
+        android:color="@android:color/white" />
+
+</shape><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/community_white_border_shape.xml -->

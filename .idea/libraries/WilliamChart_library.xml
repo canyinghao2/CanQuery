@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="WilliamChart_library">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/WilliamChart_library.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

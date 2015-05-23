@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/dot_focused" android:state_checked="true"/>
+    <item android:drawable="@drawable/dot_normal" android:state_checked="false"/>
+
+</selector>
+<!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/banner_point_check_selector.xml -->

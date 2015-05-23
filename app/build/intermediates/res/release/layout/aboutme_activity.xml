@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_gray_500"
+
+    android:orientation="vertical"
+
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:minHeight="?attr/actionBarSize" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/canquery" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/app_name"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:text="便捷的日常生活查询工具"
+                android:textColor="@color/white_text_70"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:text="这是一款用来进行日常生活相关的查询的工具，界面美观，高效实用。"
+                android:textColor="@color/white_text_70"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="版权所有2015-2015"
+                android:textColor="@color/white_text_70"
+                android:textSize="18sp"
+                android:id="@+id/tv_have" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginLeft="10dp"
+                android:text="canyinghao"
+                android:textColor="@color/white_text_70"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="联系邮箱：canyinghao@hotmail.com"
+                android:textColor="@color/white_text_70"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginLeft="10dp"
+                android:text="欢迎提供反馈与建议"
+                android:textColor="@color/white_text_70"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 android:id="@+id/tv_version"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="版本号：1.0"
+                android:textColor="@color/white_text_70"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="温馨功能：贴屏幕左边向右滑动可后退。"
+                android:textColor="@color/white_text_70"
+                android:textSize="18sp" />
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
+<!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/aboutme_activity.xml -->

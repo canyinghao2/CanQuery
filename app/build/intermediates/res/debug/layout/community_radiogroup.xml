@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="50dp" 
+    android:paddingRight="50dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:orientation="horizontal"
+        android:padding="0.5dp" >
+
+        <RadioButton
+            android:id="@+id/rb_rg_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableBottom="@drawable/community_main_radiobutton_white_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+           android:drawablePadding="5dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="全部好友"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/rb_rg_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:drawablePadding="5dp"
+            android:drawableBottom="@drawable/community_main_radiobutton_white_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="会话记录"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RadioGroup>
+
+</LinearLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/community_radiogroup.xml -->

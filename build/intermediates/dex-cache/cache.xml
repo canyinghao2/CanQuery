@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/anrwatchdog-1.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="43a0e6b50078937acc458034c4af8b74f8dc133e">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/anrwatchdog-1.1.0-97a4ad051e9fcde24dd5fb40cca4e179b9829312.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/xUtils-2.6.13.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="149586602e581f306ccc6fe813a60d7b956252d9">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/xUtils-2.6.13-e3d02c774fb1b47269d1aff6b0bd83662f16eb91.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-2937c4e44275f7e8a10348593c770ec2f3a80cae.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-9c17d91c01ae27cb2cc5e316a45b8768ea79f98c.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/domob_android_sdk.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fd843437d2faf165850cf1fb90cfa84cee267e24">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/domob_android_sdk-15568a2511332db952d1ce4effe1e2185771b4c7.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/classes-d302d4c5fc79ec3d66153e2579263e8c8ca74dcb.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/Baidu-Frontia-Android-2.0.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2ac874fd541c1b2e7f7159c8bcf0ee635cdd8caf">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/Baidu-Frontia-Android-2.0.8-c7f650e01b5b565bcbbc24c8fc971568c0501503.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/gson-2.2.4-60ee8ba8b266f25f69a9711bfaf72bdc58b2df4f.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/eventbus-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0-79620e262758b6c54b09616f03363de471c599e6.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/Documents/program/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-4e6f20968d2d9e8acc3a0a2320602e45b2b43907.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/WilliamChart_library.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="30ff1b345ee12750fd05a49abf23e6099b29c428">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/WilliamChart_library-4d636afc2137c50b913d805a4b378d23f3a329dc.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/exploded-aar/CanQuery/canhelper/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ceeaa42e5476083369144f406983bdc193dc87ee">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/classes-5c21235d813cfe9a7c579440c695c3da4ff3a073.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/juhe_sdk_v_2_2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ae4b414b0b3ac08cafa44f06c045e76be7f7369">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/juhe_sdk_v_2_2-e114b275de95fe25fc597ebadd6bc2e005a2f48a.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/universalImageLoaderlibrary1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a21ca57de1fabaf43c786aca6c4c9bb58ff206c0">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/universalImageLoaderlibrary1.9.0-805a918b4b0bf7888e368bf74d20110fbf7d3489.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/zbarscanproj.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a3a89673baafda67d8823179a7990dcd7bc8db9d">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/zbarscanproj-4918c21f86feae4634c26dcc74c837685b2e2552.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/libs/pinyin4j-2.5.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ae353005f973da1cd8545b54354504c2503f6865">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/pinyin4j-2.5.0-2972de224f4719775343227f581bae5eb14bcabe.jar" />
+    </item>
+    <item
+        jar="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/yangjian/AndroidStudioProjects/CanQuery/app/build/intermediates/pre-dexed/debug/classes-a8b72469eefd198c0e94f144dfc4dff4552b42a6.jar" />
+    </item>
+
+</items>

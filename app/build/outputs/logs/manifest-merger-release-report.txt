@@ -1,0 +1,366 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:8:5
+	android:name
+		ADDED from AndroidManifest.xml:8:22
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:14:5
+	android:name
+		ADDED from AndroidManifest.xml:14:22
+uses-permission#android.permission.FLASHLIGHT
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:19:5
+	android:name
+		ADDED from AndroidManifest.xml:19:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:21:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:29:5
+	android:name
+		ADDED from AndroidManifest.xml:29:19
+uses-feature#android.hardware.camera.autofocus
+ADDED from AndroidManifest.xml:30:5
+	android:name
+		ADDED from AndroidManifest.xml:30:19
+application
+ADDED from AndroidManifest.xml:32:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:appcompat-v7:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:36:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:34:9
+	android:icon
+		ADDED from AndroidManifest.xml:35:9
+	android:theme
+		ADDED from AndroidManifest.xml:37:9
+	android:name
+		ADDED from AndroidManifest.xml:33:9
+meta-data#com.thinkland.juheapi.openid
+ADDED from AndroidManifest.xml:39:9
+	android:value
+		ADDED from AndroidManifest.xml:41:13
+	android:name
+		ADDED from AndroidManifest.xml:40:13
+activity#com.canyinghao.canquery.activity.LanucherActivity
+ADDED from AndroidManifest.xml:43:9
+	android:label
+		ADDED from AndroidManifest.xml:45:13
+	android:theme
+		ADDED from AndroidManifest.xml:46:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:47:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:48:17
+	android:name
+		ADDED from AndroidManifest.xml:48:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:50:17
+	android:name
+		ADDED from AndroidManifest.xml:50:27
+activity#com.canyinghao.canquery.activity.MainActivity
+ADDED from AndroidManifest.xml:55:9
+	android:label
+		ADDED from AndroidManifest.xml:58:13
+	android:configChanges
+		ADDED from AndroidManifest.xml:57:13
+	android:theme
+		ADDED from AndroidManifest.xml:59:13
+	android:name
+		ADDED from AndroidManifest.xml:56:13
+activity#com.canyinghao.canquery.activity.expressage.ExpressageQueryActivity
+ADDED from AndroidManifest.xml:60:9
+	android:name
+		ADDED from AndroidManifest.xml:60:19
+activity#com.canyinghao.canquery.activity.expressage.ExpressageQueryResultActivity
+ADDED from AndroidManifest.xml:61:9
+	android:name
+		ADDED from AndroidManifest.xml:61:19
+activity#com.canyinghao.canquery.activity.trainticket.TrainTicketCityQueryActivity
+ADDED from AndroidManifest.xml:63:9
+	android:name
+		ADDED from AndroidManifest.xml:63:19
+activity#com.canyinghao.canquery.activity.trainticket.TrainTicketQueryActivity
+ADDED from AndroidManifest.xml:64:9
+	android:name
+		ADDED from AndroidManifest.xml:64:19
+activity#com.canyinghao.canquery.activity.trainticket.TrainTicketQueryListActivity
+ADDED from AndroidManifest.xml:65:9
+	android:name
+		ADDED from AndroidManifest.xml:65:19
+activity#com.canyinghao.canquery.activity.flight.FlightCityQueryActivity
+ADDED from AndroidManifest.xml:66:9
+	android:name
+		ADDED from AndroidManifest.xml:66:19
+activity#com.canyinghao.canquery.activity.flight.FlightQueryActivity
+ADDED from AndroidManifest.xml:67:9
+	android:name
+		ADDED from AndroidManifest.xml:67:19
+activity#com.canyinghao.canquery.activity.flight.FlightQueryListActivity
+ADDED from AndroidManifest.xml:68:9
+	android:name
+		ADDED from AndroidManifest.xml:68:19
+activity#com.canyinghao.canquery.activity.flight.FlightDetailQueryActivity
+ADDED from AndroidManifest.xml:69:9
+	android:name
+		ADDED from AndroidManifest.xml:69:19
+activity#com.canyinghao.canquery.activity.idcard.IDCardQueryActivity
+ADDED from AndroidManifest.xml:70:9
+	android:name
+		ADDED from AndroidManifest.xml:70:19
+activity#com.canyinghao.canquery.activity.postcode.PostCodeQueryActivity
+ADDED from AndroidManifest.xml:71:9
+	android:name
+		ADDED from AndroidManifest.xml:71:19
+activity#com.canyinghao.canquery.activity.postcode.PostCodeCityQueryActivity
+ADDED from AndroidManifest.xml:72:9
+	android:name
+		ADDED from AndroidManifest.xml:72:19
+activity#com.canyinghao.canquery.activity.postcode.PostCodeResultQueryActivity
+ADDED from AndroidManifest.xml:73:9
+	android:name
+		ADDED from AndroidManifest.xml:73:19
+activity#com.canyinghao.canquery.activity.weather.WeatherTodayQueryActivity
+ADDED from AndroidManifest.xml:74:9
+	android:name
+		ADDED from AndroidManifest.xml:74:19
+activity#com.canyinghao.canquery.activity.weather.WeatherDetailQueryActivity
+ADDED from AndroidManifest.xml:75:9
+	android:name
+		ADDED from AndroidManifest.xml:75:19
+activity#com.canyinghao.canquery.activity.weather.WeatherSelectCityQueryActivity
+ADDED from AndroidManifest.xml:76:9
+	android:name
+		ADDED from AndroidManifest.xml:76:19
+activity#com.canyinghao.canquery.activity.weather.WeatherCityQueryActivity
+ADDED from AndroidManifest.xml:77:9
+	android:name
+		ADDED from AndroidManifest.xml:77:19
+activity#com.canyinghao.canquery.activity.weather.WeatherMainQueryActivity
+ADDED from AndroidManifest.xml:78:9
+	android:name
+		ADDED from AndroidManifest.xml:78:19
+activity#com.canyinghao.canquery.activity.weather.WeatherCity2DisQueryActivity
+ADDED from AndroidManifest.xml:79:9
+	android:name
+		ADDED from AndroidManifest.xml:79:19
+activity#com.canyinghao.canquery.activity.constellation.ConstellationActivity
+ADDED from AndroidManifest.xml:80:9
+	android:name
+		ADDED from AndroidManifest.xml:80:19
+activity#com.canyinghao.canquery.activity.box_office.BoxOfficeActivity
+ADDED from AndroidManifest.xml:81:9
+	android:name
+		ADDED from AndroidManifest.xml:81:19
+activity#com.canyinghao.canquery.activity.cookbook.CookBookDetailActivity
+ADDED from AndroidManifest.xml:82:9
+	android:name
+		ADDED from AndroidManifest.xml:82:19
+activity#com.canyinghao.canquery.activity.cookbook.CookBookMainActivity
+ADDED from AndroidManifest.xml:83:9
+	android:name
+		ADDED from AndroidManifest.xml:83:19
+activity#com.canyinghao.canquery.activity.cookbook.CookBookSearchActivity
+ADDED from AndroidManifest.xml:84:9
+	android:name
+		ADDED from AndroidManifest.xml:84:19
+activity#com.canyinghao.canquery.activity.postcode.WebViewActivity
+ADDED from AndroidManifest.xml:86:9
+	android:name
+		ADDED from AndroidManifest.xml:86:19
+activity#com.canyinghao.canquery.activity.travel.TravelMainActivity
+ADDED from AndroidManifest.xml:87:9
+	android:name
+		ADDED from AndroidManifest.xml:87:19
+activity#com.canyinghao.canquery.activity.travel.TravelDetailActivity
+ADDED from AndroidManifest.xml:88:9
+	android:name
+		ADDED from AndroidManifest.xml:88:19
+activity#com.canyinghao.canquery.view.scan.CaptureActivity
+ADDED from AndroidManifest.xml:90:9
+	android:name
+		ADDED from AndroidManifest.xml:90:19
+activity#com.canyinghao.canquery.view.scan.BarcodeActivity
+ADDED from AndroidManifest.xml:91:9
+	android:name
+		ADDED from AndroidManifest.xml:91:19
+activity#com.canyinghao.canquery.activity.AboutMeActivity
+ADDED from AndroidManifest.xml:92:9
+	android:name
+		ADDED from AndroidManifest.xml:92:19
+activity#cn.domob.android.ads.DmActivity
+ADDED from AndroidManifest.xml:95:9
+	android:theme
+		ADDED from AndroidManifest.xml:97:13
+	android:name
+		ADDED from AndroidManifest.xml:96:13
+activity#com.baidu.frontia.activity.share.FrontiaSocialOAuthActivity
+ADDED from AndroidManifest.xml:102:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:105:13
+	android:exported
+		ADDED from AndroidManifest.xml:104:13
+	android:theme
+		ADDED from AndroidManifest.xml:106:13
+	android:name
+		ADDED from AndroidManifest.xml:103:13
+activity#com.baidu.frontia.activity.share.FrontiaLocalShareActivity
+ADDED from AndroidManifest.xml:107:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:109:13
+	android:name
+		ADDED from AndroidManifest.xml:108:13
+activity#com.baidu.frontia.activity.share.FrontiaQQFriendShareReceiverActivity
+ADDED from AndroidManifest.xml:110:9
+	android:launchMode
+		ADDED from AndroidManifest.xml:112:13
+	android:name
+		ADDED from AndroidManifest.xml:111:13
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:113:13
+action#android.intent.action.VIEW
+ADDED from AndroidManifest.xml:114:17
+	android:name
+		ADDED from AndroidManifest.xml:114:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:116:17
+	android:name
+		ADDED from AndroidManifest.xml:116:27
+category#android.intent.category.BROWSABLE
+ADDED from AndroidManifest.xml:117:17
+	android:name
+		ADDED from AndroidManifest.xml:117:27
+data
+ADDED from AndroidManifest.xml:119:17
+	android:scheme
+		ADDED from AndroidManifest.xml:119:23
+service#com.canyinghao.canquery.service.UpdateService
+ADDED from AndroidManifest.xml:124:9
+	android:exported
+		ADDED from AndroidManifest.xml:126:13
+	android:name
+		ADDED from AndroidManifest.xml:125:13
+intent-filter#com.canyinghao.canquery.service.UpdateService
+ADDED from AndroidManifest.xml:127:13
+action#com.canyinghao.canquery.service.UpdateService
+ADDED from AndroidManifest.xml:128:17
+	android:name
+		ADDED from AndroidManifest.xml:128:25
+receiver#com.canyinghao.canquery.view.widget.QueryWidgetProvider_2x
+ADDED from AndroidManifest.xml:133:9
+	android:label
+		ADDED from AndroidManifest.xml:135:13
+	android:name
+		ADDED from AndroidManifest.xml:134:13
+intent-filter#android.appwidget.action.APPWIDGET_DELETED+android.appwidget.action.APPWIDGET_UPDATE+android.intent.action.PRIVACY_MODE_CHANGED
+ADDED from AndroidManifest.xml:137:13
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from AndroidManifest.xml:138:17
+	android:name
+		ADDED from AndroidManifest.xml:138:25
+action#android.appwidget.action.APPWIDGET_DELETED
+ADDED from AndroidManifest.xml:139:17
+	android:name
+		ADDED from AndroidManifest.xml:139:25
+action#android.intent.action.PRIVACY_MODE_CHANGED
+ADDED from AndroidManifest.xml:140:17
+	android:name
+		ADDED from AndroidManifest.xml:140:25
+meta-data#android.appwidget.provider
+ADDED from AndroidManifest.xml:143:13
+	android:resource
+		ADDED from AndroidManifest.xml:145:17
+	android:name
+		ADDED from AndroidManifest.xml:144:17
+receiver#com.canyinghao.canquery.view.widget.QueryWidgetProvider_4x
+ADDED from AndroidManifest.xml:147:9
+	android:label
+		ADDED from AndroidManifest.xml:149:13
+	android:name
+		ADDED from AndroidManifest.xml:148:13
+receiver#com.canyinghao.canquery.view.widget.AlarmReceiver
+ADDED from AndroidManifest.xml:163:9
+	android:name
+		ADDED from AndroidManifest.xml:163:19
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.TIMEZONE_CHANGED+android.intent.action.TIME_SET
+ADDED from AndroidManifest.xml:164:13
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from AndroidManifest.xml:165:17
+	android:name
+		ADDED from AndroidManifest.xml:165:25
+action#android.intent.action.BOOT_COMPLETED
+ADDED from AndroidManifest.xml:166:17
+	android:name
+		ADDED from AndroidManifest.xml:166:25
+action#android.intent.action.TIME_SET
+ADDED from AndroidManifest.xml:167:17
+	android:name
+		ADDED from AndroidManifest.xml:167:25
+uses-sdk
+INJECTED from AndroidManifest.xml:0:0 reason: use-sdk injection requested
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from CanQuery:canhelper:unspecified:7:5
+MERGED from com.android.support:appcompat-v7:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0

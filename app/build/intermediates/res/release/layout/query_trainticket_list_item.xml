@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+ 
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_type_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="动车"
+                android:textColor="@color/blue_gray_500"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="D8"
+                android:textColor="@color/blue_gray_500"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_start_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="09:42"
+                android:textColor="@color/blue_gray_500"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+            
+                 android:paddingLeft="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/community_bluegray_round_border_shape"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="始"
+                    android:textColor="@color/blue_gray_500"
+                    android:textSize="12sp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_from_station"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                   
+                    android:text="成都"
+                    android:textColor="@color/blue_gray_500"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/tv_arrive_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="09:42"
+                android:textColor="@color/blue_gray_500"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+              android:paddingLeft="20dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/community_bluegray_round_border_shape"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="终"
+                    android:textColor="@color/blue_gray_500"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_to_station"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:text="北京"
+                    android:textColor="@color/blue_gray_500"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_lishi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="4小时"
+                android:textColor="@color/blue_gray_500"
+                android:textSize="13sp" />
+        </TableRow>
+    </TableLayout>
+
+    <com.canyinghao.canhelper.NoScrollGridView
+        android:id="@+id/csg_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:horizontalSpacing="2dp"
+        android:listSelector="#00000000"
+        android:numColumns="3"
+        android:verticalSpacing="2dp"
+        android:visibility="gone" />
+
+</LinearLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/query_trainticket_list_item.xml -->

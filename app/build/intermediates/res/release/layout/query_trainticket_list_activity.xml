@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_gray_500"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@color/blue_gray_500"
+        android:minHeight="?attr/actionBarSize" />
+
+    <LinearLayout
+        android:id="@+id/ll_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_gray_500">
+
+        <include layout="@layout/community_radiogroup" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_gray_500"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_down"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="前一天"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="11月5日 星期五"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_up"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="后一天"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/main_bg"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:dividerHeight="0.5dp"
+            android:listSelector="#00000000"
+            android:scrollbars="none" />
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_most"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_bg"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_most_from"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/blue_gray_500"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="最早出发"
+            android:textColor="@color/community_radiogroup_text_selector"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_most_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@color/blue_gray_500"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="耗时最短"
+            android:textColor="@color/community_radiogroup_text_selector"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/rb_most_to"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.5dp"
+            android:layout_weight="1"
+            android:background="@color/blue_gray_500"
+            android:button="@null"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="最早到达"
+
+            android:textColor="@color/community_radiogroup_text_selector"
+            android:textSize="15sp" />
+    </RadioGroup>
+
+</LinearLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/query_trainticket_list_activity.xml -->
