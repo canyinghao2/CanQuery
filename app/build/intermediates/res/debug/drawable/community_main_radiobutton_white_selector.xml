@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/community_main_head_white" android:state_checked="true"/>
     <item android:drawable="@drawable/community_main_head_transparent" android:state_checked="false"/>
 
-</selector><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/community_main_radiobutton_white_selector.xml -->
+</selector><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/community_main_radiobutton_white_selector.xml -->

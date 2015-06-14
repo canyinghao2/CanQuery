@@ -9,4 +9,4 @@
     android:pivotY="50%"
     android:toXScale="0.0"
     android:toYScale="0.0" />
-<!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/anim/unzoom_out.xml -->
+<!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/anim/unzoom_out.xml -->

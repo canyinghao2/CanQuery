@@ -41,4 +41,4 @@
         android:adjustViewBounds="true"
         android:src="@drawable/query_weather_cloud" />
 
-</LinearLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/query_weather_grid_item1.xml -->
+</LinearLayout><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/layout/query_weather_grid_item1.xml -->

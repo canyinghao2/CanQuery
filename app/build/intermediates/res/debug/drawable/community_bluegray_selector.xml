@@ -5,4 +5,4 @@
     <item android:drawable="@color/blue_gray_900" android:state_pressed="true"/>
     <item android:drawable="@color/blue_gray_500" android:state_window_focused="false"/>
 
-</selector><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/community_bluegray_selector.xml -->
+</selector><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/community_bluegray_selector.xml -->

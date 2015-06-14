@@ -103,4 +103,4 @@
         android:textSize="15sp"
         android:visibility="gone" />
 
-</LinearLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/query_postcode_result_activity.xml -->
+</LinearLayout><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/layout/query_postcode_result_activity.xml -->

@@ -8,4 +8,4 @@
         android:topRightRadius="2dp"     
         android:bottomRightRadius="2dp"    
         android:bottomLeftRadius="2dp"/>
-</shape> <!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/corner_round_5dp.xml -->
+</shape> <!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/corner_round_5dp.xml -->

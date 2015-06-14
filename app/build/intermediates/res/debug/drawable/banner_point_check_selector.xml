@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/dot_normal" android:state_checked="false"/>
 
 </selector>
-<!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/banner_point_check_selector.xml -->
+<!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/banner_point_check_selector.xml -->

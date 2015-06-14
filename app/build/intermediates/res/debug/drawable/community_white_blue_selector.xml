@@ -5,4 +5,4 @@
     <item android:drawable="@color/light_blue" android:state_pressed="true"/>
     <item android:drawable="@color/white" android:state_window_focused="false"/>
 
-</selector><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/community_white_blue_selector.xml -->
+</selector><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/community_white_blue_selector.xml -->

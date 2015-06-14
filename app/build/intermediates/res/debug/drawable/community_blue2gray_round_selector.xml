@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/community_gray_round_shape" android:state_pressed="true"/>
     <item android:drawable="@drawable/community_blue_round_shape" android:state_pressed="false"/>
 
-</selector><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/community_blue2gray_round_selector.xml -->
+</selector><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/community_blue2gray_round_selector.xml -->

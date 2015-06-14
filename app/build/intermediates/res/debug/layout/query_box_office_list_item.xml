@@ -106,4 +106,4 @@
         android:textColor="@color/white"
         android:textSize="14sp" />
 
-</FrameLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/query_box_office_list_item.xml -->
+</FrameLayout><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/layout/query_box_office_list_item.xml -->
