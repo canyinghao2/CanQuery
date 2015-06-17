@@ -49,4 +49,4 @@
         android:src="@drawable/community_arrows_white" 
         android:layout_marginRight="20dp"/>
 
-</LinearLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/query_weather_grid_item2.xml -->
+</LinearLayout><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/layout/query_weather_grid_item2.xml -->

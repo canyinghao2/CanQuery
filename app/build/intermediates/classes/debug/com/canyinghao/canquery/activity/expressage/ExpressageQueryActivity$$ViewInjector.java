@@ -8,12 +8,12 @@ import butterknife.ButterKnife.Injector;
 public class ExpressageQueryActivity$$ViewInjector<T extends com.canyinghao.canquery.activity.expressage.ExpressageQueryActivity> implements Injector<T> {
   @Override public void inject(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131296319, "field 'toolbar'");
-    target.toolbar = finder.castView(view, 2131296319, "field 'toolbar'");
-    view = finder.findRequiredView(source, 2131296399, "field 'et_query_number'");
-    target.et_query_number = finder.castView(view, 2131296399, "field 'et_query_number'");
-    view = finder.findRequiredView(source, 2131296401, "field 'tv_query_company' and method 'click'");
-    target.tv_query_company = finder.castView(view, 2131296401, "field 'tv_query_company'");
+    view = finder.findRequiredView(source, 2131296335, "field 'toolbar'");
+    target.toolbar = finder.castView(view, 2131296335, "field 'toolbar'");
+    view = finder.findRequiredView(source, 2131296428, "field 'et_query_number'");
+    target.et_query_number = finder.castView(view, 2131296428, "field 'et_query_number'");
+    view = finder.findRequiredView(source, 2131296430, "field 'tv_query_company' and method 'click'");
+    target.tv_query_company = finder.castView(view, 2131296430, "field 'tv_query_company'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -22,8 +22,8 @@ public class ExpressageQueryActivity$$ViewInjector<T extends com.canyinghao.canq
           target.click(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131296402, "field 'tv_query' and method 'click'");
-    target.tv_query = finder.castView(view, 2131296402, "field 'tv_query'");
+    view = finder.findRequiredView(source, 2131296431, "field 'tv_query' and method 'click'");
+    target.tv_query = finder.castView(view, 2131296431, "field 'tv_query'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -32,9 +32,9 @@ public class ExpressageQueryActivity$$ViewInjector<T extends com.canyinghao.canq
           target.click(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131296403, "field 'fl_ad'");
-    target.fl_ad = finder.castView(view, 2131296403, "field 'fl_ad'");
-    view = finder.findRequiredView(source, 2131296400, "method 'click'");
+    view = finder.findRequiredView(source, 2131296432, "field 'fl_ad'");
+    target.fl_ad = finder.castView(view, 2131296432, "field 'fl_ad'");
+    view = finder.findRequiredView(source, 2131296429, "method 'click'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(

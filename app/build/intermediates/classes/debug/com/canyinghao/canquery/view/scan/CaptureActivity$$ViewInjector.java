@@ -8,7 +8,7 @@ import butterknife.ButterKnife.Injector;
 public class CaptureActivity$$ViewInjector<T extends com.canyinghao.canquery.view.scan.CaptureActivity> implements Injector<T> {
   @Override public void inject(final Finder finder, final T target, Object source) {
     View view;
-    view = finder.findRequiredView(source, 2131296528, "method 'click'");
+    view = finder.findRequiredView(source, 2131296557, "method 'click'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(
@@ -17,7 +17,7 @@ public class CaptureActivity$$ViewInjector<T extends com.canyinghao.canquery.vie
           target.click(p0);
         }
       });
-    view = finder.findRequiredView(source, 2131296529, "method 'click'");
+    view = finder.findRequiredView(source, 2131296558, "method 'click'");
     view.setOnClickListener(
       new butterknife.internal.DebouncingOnClickListener() {
         @Override public void doClick(

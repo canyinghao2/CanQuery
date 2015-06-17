@@ -4,4 +4,4 @@
     <item android:drawable="@drawable/community_topback_gray" android:state_pressed="true"/>
     <item android:drawable="@drawable/community_topback" android:state_pressed="false"/>
 
-</selector><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/community_topback_selector.xml -->
+</selector><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/community_topback_selector.xml -->

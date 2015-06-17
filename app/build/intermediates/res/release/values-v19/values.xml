@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/values-v19/styles.xml -->
+    <!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/values-v19/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- API 19 theme customizations can go here. -->

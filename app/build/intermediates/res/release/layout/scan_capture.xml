@@ -121,4 +121,4 @@
         android:textColor="@android:color/white"
         android:textSize="14sp" />
 
-</RelativeLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/scan_capture.xml -->
+</RelativeLayout><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/layout/scan_capture.xml -->

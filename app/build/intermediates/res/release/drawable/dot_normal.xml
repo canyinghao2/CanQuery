@@ -5,4 +5,4 @@
     <size android:height="8.0dip" android:width="8.0dip" />
     <corners android:radius="8.0dip" />
 </shape>
-<!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/drawable/dot_normal.xml -->
+<!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/dot_normal.xml -->

@@ -66,4 +66,4 @@
         android:textColor="@color/black_gray"
         android:textSize="12sp" />
 
-</LinearLayout><!-- From: file:/Users/yangjian/AndroidStudioProjects/CanQuery/app/src/main/res/layout/query_postcode_result_item.xml -->
+</LinearLayout><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/layout/query_postcode_result_item.xml -->

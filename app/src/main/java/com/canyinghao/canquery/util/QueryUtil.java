@@ -157,7 +157,7 @@ public class QueryUtil {
         params.add("v", "1.0");
         params.add("month", month);
         params.add("day", day);
-        JuheWeb.getJuheData(params, 63, "http://japi.juhe.cn/toh/toh",
+        JuheWeb.getJuheData(params, 63, "http://api.juheapi.com/japi/toh",
                 JuheData.GET, new JuheRequestCallBack() {
 
                     @Override

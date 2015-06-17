@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class QueryConfigs {
 
-    public static  String Version="6.0";
+    public static  String Version="7.0";
 
 	private static Map<Integer, Integer> weatherMap;
 
