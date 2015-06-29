@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/voip_listview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ListView
+        android:id="@+id/lv_voip_contact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/voip_bg"
+        android:divider="@color/voip_bg"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"
+        android:listSelector="#00000000" />
+
+    <com.canyinghao.canquery.view.alphabeticbar.QuickAlphabeticBar
+        android:id="@+id/indexScrollerBar"
+        android:layout_width="32dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="top|right|center"
+        android:layout_marginTop="0dip"
+        android:background="@null"
+        android:scaleType="centerInside" />
+
+    <TextView
+        android:id="@+id/fast_position"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_margin="34dip"
+        android:gravity="center"
+        android:padding="2dip"
+        android:textColor="#b8ec4c"
+        android:textSize="48sp"
+        android:visibility="invisible" />
+
+</RelativeLayout>

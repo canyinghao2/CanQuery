@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="blue_gray_50">#eceff1</color>
+    <color name="blue_gray_100">#cfd8dc</color>
+    <color name="blue_gray_200">#b0bec5</color>
+    <color name="blue_gray_300">#90a4ae</color>
+    <color name="blue_gray_400">#78909c</color>
+    <color name="blue_gray_500">#607d8b</color>
+    <color name="blue_gray_600">#546e7a</color>
+    <color name="blue_gray_700">#455a64</color>
+    <color name="blue_gray_800">#37474f</color>
+    <color name="blue_gray_900">#263238</color>
+    <color name="white">#ffffffff</color>
+    <color name="white_text_70">#b2ffffff</color>
+    <color name="white_text_30">#4dffffff</color>
+    <color name="white_text_12">#1fffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="black_text_87">#dd000000</color>
+    <color name="black_text_54">#8a000000</color>
+    <color name="black_text_26">#42000000</color>
+    <color name="black_text_12">#1f000000</color>
+
+
+    <color name="gray_text">#989898</color>
+    <color name="black_gray">#515151</color>
+    <color name="main_bg">#f0f0f0</color>
+    <color name="main_light_bg">#f6f6f6</color>
+    <color name="main_deep_bg">#e1e1e1</color>
+    <color name="light_blue">#ddf0fe</color>
+    <color name="gray">#a5a5a5</color>
+    <color name="blue">#2498e2</color>
+    <color name="half_transparent">#5000</color>
+    <color name="voip_bg">#f4f4f4</color>
+    <color name="blue_deep">#005b7f</color>
+    <color name="green">#7ddb9d</color>
+    <color name="yellow">#fe9920</color>
+    <color name="white_light">#aaffffff</color>
+    <color name="voip_blue_top">#2498e3</color>
+
+</resources>

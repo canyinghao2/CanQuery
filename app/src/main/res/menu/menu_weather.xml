@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <item
+        android:id="@+id/action_city"
+        android:icon="@drawable/query_weather_local"
+        android:orderInCategory="90"
+        android:title="@string/city"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_more_vert_white"
+        android:orderInCategory="90"
+        android:title="@string/settings"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
