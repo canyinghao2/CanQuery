@@ -18,86 +18,83 @@ import butterknife.ButterKnife;
 
 public class App extends FrontiaApplication implements Thread.UncaughtExceptionHandler {
 
-	private static App app;
+    private static App app;
 
 
-
-
-	@Override
-	public void onCreate() {
-
+    @Override
+    public void onCreate() {
 
 
         super.onCreate();
 
 
-		app = this;
-		ButterKnife.setDebug(BuildConfig.DEBUG);
-		LogHelper.DEBUG=BuildConfig.DEBUG;
-		SDKInitializer.initialize(getApplicationContext());
-		CanHelper.init(this);
+        app = this;
+        ButterKnife.setDebug(BuildConfig.DEBUG);
+        LogHelper.DEBUG = BuildConfig.DEBUG;
+        SDKInitializer.initialize(getApplicationContext());
+        CanHelper.init(this);
 //		ANRWatchDog anrWatchDog = new ANRWatchDog(2000);
 //		anrWatchDog.start();
 
 
         Frontia.init(this.getApplicationContext(), "kRfd5zOLe2VUzjQglNKKsXrc");
-		File file = new File(FileHelper.getInstance().getExternalStorePath(),
-				"canquery");
+        File file = new File(FileHelper.getInstance().getExternalStorePath(),
+                "canquery");
 
-		
-		if (!file.exists()) {
-			file.mkdirs();
-		}
-		Thread.setDefaultUncaughtExceptionHandler(this);
 
-	}
+        if (!file.exists()) {
+            file.mkdirs();
+        }
+        Thread.setDefaultUncaughtExceptionHandler(this);
 
-	public static App getInstance() {
-		if (app == null) {
-			app = new App();
-		}
-		return app;
+    }
 
-	}
+    public static App getInstance() {
+        if (app == null) {
+            app = new App();
+        }
+        return app;
 
-	public static App getContext() {
-		if (app == null) {
-			app = new App();
-		}
-		return app;
+    }
 
-	}
+    public static App getContext() {
+        if (app == null) {
+            app = new App();
+        }
+        return app;
 
-	@Override
-	public void uncaughtException(Thread thread, Throwable ex) {
-		
-		String eStr = getCrashReport(ex);
-		LogHelper.loge("UncaughtException", eStr);
-		try {
-			File file = new File(FileHelper.getInstance()
-					.getExternalStorePath(), "canquery/faillog.txt");
-			FileOutputStream f = new FileOutputStream(file);
-			f.write(eStr.getBytes());
-			f.close();
-		} catch (FileNotFoundException e1) {
-			e1.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		}
-		System.exit(0);
-	}
+    }
 
-	private String getCrashReport(Throwable ex) {
-		StringWriter sw = new StringWriter();
-		PrintWriter pw = new PrintWriter(sw);
-		ex.printStackTrace(pw);
-		String expcetionStr = sw.toString();
-		try {
-			sw.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		pw.close();
-		return expcetionStr;
-	}
+    @Override
+    public void uncaughtException(Thread thread, Throwable ex) {
+
+        String eStr = getCrashReport(ex);
+        LogHelper.loge("UncaughtException", eStr);
+        try {
+            File file = new File(FileHelper.getInstance()
+                    .getExternalStorePath(), "canquery/faillog.txt");
+            FileOutputStream f = new FileOutputStream(file);
+            f.write(eStr.getBytes());
+            f.close();
+        } catch (FileNotFoundException e1) {
+            e1.printStackTrace();
+        } catch (IOException e1) {
+            e1.printStackTrace();
+        }
+        System.exit(0);
+    }
+
+    private String getCrashReport(Throwable ex) {
+        StringWriter sw = new StringWriter();
+        PrintWriter pw = new PrintWriter(sw);
+        ex.printStackTrace(pw);
+        String expcetionStr = sw.toString();
+        try {
+            sw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        pw.close();
+        return expcetionStr;
+    }
 }
