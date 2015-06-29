@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="@drawable/banner_point_check_selector"
-    android:button="@null"
-    android:paddingLeft="3dp" >
-
-</RadioButton><!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/layout/banner_point.xml -->

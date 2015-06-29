@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="oval"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="#2498e3" />
-    <size android:height="8.0dip" android:width="8.0dip" />
-    <corners android:radius="8.0dip" />
-</shape>
-<!-- From: file:/Users/yangjian/github/CanQuery/app/src/main/res/drawable/dot_normal.xml -->
