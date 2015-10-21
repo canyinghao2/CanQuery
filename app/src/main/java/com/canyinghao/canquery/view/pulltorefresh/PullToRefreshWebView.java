@@ -2,7 +2,6 @@ package com.canyinghao.canquery.view.pulltorefresh;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.FloatMath;
 import android.webkit.WebView;
 
 /**
@@ -43,7 +42,7 @@ public class PullToRefreshWebView extends PullToRefreshBase<WebView> {
     }
 
     /**
-     * @see com.nj1s.lib.pullrefresh.PullToRefreshBase#createRefreshableView(android.content.Context, android.util.AttributeSet)
+     * @see com.(android.content.Context, android.util.AttributeSet)
      */
     @Override
     protected WebView createRefreshableView(Context context, AttributeSet attrs) {
@@ -52,7 +51,7 @@ public class PullToRefreshWebView extends PullToRefreshBase<WebView> {
     }
 
     /**
-     * @see com.nj1s.lib.pullrefresh.PullToRefreshBase#isReadyForPullDown()
+     * @see
      */
     @Override
     protected boolean isReadyForPullDown() {
@@ -60,11 +59,11 @@ public class PullToRefreshWebView extends PullToRefreshBase<WebView> {
     }
 
     /**
-     * @see com.nj1s.lib.pullrefresh.PullToRefreshBase#isReadyForPullUp()
+     * @see
      */
     @Override
     protected boolean isReadyForPullUp() {
-        float exactContentHeight = FloatMath.floor(mRefreshableView.getContentHeight() * mRefreshableView.getScale());
+        float exactContentHeight = (float) Math.floor(mRefreshableView.getContentHeight() * mRefreshableView.getScale());
         return mRefreshableView.getScrollY() >= (exactContentHeight - mRefreshableView.getHeight());
     }
 }
